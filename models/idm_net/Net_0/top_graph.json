@@ -1,0 +1,35 @@
+{
+  "main": {
+    "inputs": {
+      "input": {
+        "shape": "(10,)",
+        "dtype": "float32",
+        "batch": 1
+      }
+    },
+    "outputs": {
+      "apu_0:0": {
+        "shape": "(2,)",
+        "dtype": "float32"
+      }
+    },
+    "is_concat_output": false
+  },
+  "apu_0": {
+    "inputs": {
+      "input": {
+        "shape": "(10,)",
+        "dtype": "float32",
+        "batch": 1
+      }
+    },
+    "outputs": {
+      "apu_0:0": {
+        "shape": "(2,)",
+        "dtype": "float32"
+      }
+    },
+    "is_abc": "true",
+    "version": "2024010009"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "Reset": {
+        "addrBase": 38281412608,
+        "membranceDat": "./ddr.dat",
+        "membranceSet": null,
+        "size": 0,
+        "snnLookUpAddr": 0
+    },
+    "description": "this is weight information and membrance information",
+    "unReset": {
+        "addrBase": 38386270208,
+        "size": 0,
+        "snnLookUpAddr": 0,
+        "wightDat": "./unReset.dat",
+        "wightSet": null
+    }
+}

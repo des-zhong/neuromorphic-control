@@ -1,0 +1,70 @@
+APU log      : ./runtimes/tmp_net/Net_0/apu_0/APU.log
+APU cmd      : /home/apollo/anaconda3/envs/lyngor/lib/python3.6/site-packages/tvm/GenABC -i ./runtimes/tmp_net/Net_0/apu_0/apu_lib.bin -s 11 -o ./ -v -1 -r false -g true -e false -x 0 -m 0 -d float -b 1 -c 0 --optFlag 0 --inputprocmode -1 --ctrlopMoreCmdSize -1 --scaleMaxEn 0
+Git version  : Lynabc_hw3_20240112_1.17.0_0004
+APU_LOG_LEVEL: 1
+inGraph      : false
+
+Options:
+  input          = ./runtimes/tmp_net/Net_0/apu_0/apu_lib.bin 
+  shape          = {11}
+  dtype          = float
+  input file     = 
+  output         = ./
+  isGen          = true
+  isGolden       = false
+  mode           = 0 (name: 0)
+  type           = op
+  nPresetCores   = 0
+  isProfiler     = false
+  isRefSvg       = 0
+  isSliceInfo    = false
+  isClearFilterOut= true
+  batch          = 1 (forcebatch: false)
+  batchOutputArrange= false
+  forcecomposite = false
+  ctrlopMoreCmdSize= -1
+  inputprocmode  = -1
+  serialize      = true
+  isPrimLog      = false
+  strategyMode   = -1
+  binLoadMode    = 0
+  broadEnable    = true
+  optFlag        = 0 (0x0)
+  strategyOptFlag= 0 (0x0)
+  bEnableGlbDDRSave= 0
+  ddrMemMode     = 0
+  broadRxChannel = -1
+  forceSyn       = 0
+  dataCheck      = false
+  enableMoveToDDR= true
+  scaleMaxEn     = 0
+  rangeProtect   = -1
+  infProtect     = -1
+  sliceStrategy  = -1
+  maxRetryCount  = -1
+  paddingMode    = 0
+
+num of Op nodes:
+  total[31] const[7] if[0] else[0] endif[0] do[0] while[0] load[0] save[0] multiinput[0] accop[0] userop[0](armop[0])
+  loadsize[0.00] loadsizeOnGlb[0.00]
+  savesize[0.00] savesizeOnGlb[0.00]
+
+[2025-04-02 17:15:03:633 /apu_share/auto_build/peixu.wang/APU_src/ABC_release/LynABC/temp/LynABC/src/map/map.cpp:112]lx_map is calling. lx_map compile option:
+    git tag      : 0
+    APU_LOG_LEVEL: 1
+    isNewCmd     : true
+    gen_golden   : false
+    savePDF      : false
+    release      : false
+    logFile      : "./runtimes/tmp_net/Net_0/apu_0/APU.log"
+    batch        : 1
+    isUseSliceLib: true
+
+
+MC conv info: 
+    nMCConv      : 4
+    nConvOpMerged: 3 (enable: true)
+    nFastConv    : 0 (enable: true)
+lx_map ret 0 - success
+lynabc_v0 ret 0 - success
+COMPILER: build result is PASS

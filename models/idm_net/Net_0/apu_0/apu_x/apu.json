@@ -1,0 +1,45 @@
+{
+    "apu_x": {
+        "batch_size": 1,
+        "cmd_size": 512,
+        "ddr_config_size": 32,
+        "image_size": 644128,
+        "inputs": {
+            "datai0": {
+                "dtype": "float32",
+                "load_data_mode": 0,
+                "lookup_addr_loop": 0,
+                "lookup_addr_name": "",
+                "lookup_addr_size": 0,
+                "lookup_base_addr": 0,
+                "name": "input",
+                "shape": "[10]",
+                "shape_ex": [
+                    10
+                ],
+                "size": 10
+            }
+        },
+        "n_slice": 1,
+        "outputs": {
+            "datao0": {
+                "dtype": "float32",
+                "load_data_mode": 0,
+                "lookup_addr_loop": 32,
+                "lookup_addr_name": "lookup_output0",
+                "lookup_addr_size": 8,
+                "lookup_base_addr": 37580963840,
+                "name": "output0",
+                "shape": "[2]",
+                "shape_ex": [
+                    2
+                ],
+                "size": 2
+            }
+        },
+        "p2p_direct": "false",
+        "sub_image_size": "[644128]",
+        "sub_image_size_ex": 644128,
+        "total_calc": 3831000.0
+    }
+}
